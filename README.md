@@ -1,4 +1,4 @@
-![code coverage badge](https://github.com/luatil/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)
+![ALT_TEXT](https://github.com/luatil/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)
 
 # learn-cicd-starter (Notely)
 
