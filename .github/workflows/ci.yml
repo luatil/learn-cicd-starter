@@ -36,3 +36,12 @@ jobs:
 
       - name: Run go fmt
         run: test -z $(go fmt ./...) && echo $?
+
+      - name: Install staticcheck
+        run: go install honnef.co/go/tools/cmd/staticcheck@latest
+
+      - name: Install staticcheck
+        run: go install honnef.co/go/tools/cmd/staticcheck@latest
+
+      - name: Run lint
+        run: staticcheck ./...
