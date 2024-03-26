@@ -13,7 +13,7 @@ func TestGetAPIKey(t *testing.T) {
     headers.Add("Authorization", "ApiKey " + expected)
     // Test case 1: No Authorization header included
     _ , error := GetAPIKey(headers)
-    if error == nil {
+    if error != nil {
         t.Errorf("Expected no error, got %v", error)
     }
 }
